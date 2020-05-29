@@ -1,0 +1,11 @@
+/*
+  SWIG file to handle Middleware class commmunication with GO.
+  This file name must be the name of the integrated package (main).
+  This file extension must be "swigcxx" so that GO compiler triggers SWIG.
+*/
+
+%{
+#include "middleware.hxx"
+%}
+
+%include "middleware.hxx"
